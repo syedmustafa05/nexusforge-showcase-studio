@@ -31,12 +31,12 @@ const HeroSection = () => {
           </div>
           <div className="order-1 md:order-2 flex justify-center md:justify-end animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <div className="relative">
-              <div className="bg-gradient-to-tr from-nexusblue-700 to-nexusblue-400 w-64 h-64 md:w-80 md:h-80 rounded-full absolute -z-10 blur-2xl opacity-20 animate-pulse-slow"></div>
-              <div className="bg-gradient-to-br from-white to-gray-100 rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+              <div className="bg-gradient-to-tr from-nexusblue-700 to-nexusblue-400 w-48 h-48 md:w-56 md:h-56 rounded-full absolute -z-10 blur-2xl opacity-20 animate-pulse-slow"></div>
+              <div className="rounded-full overflow-hidden border-4 border-white shadow-xl w-48 h-48 md:w-56 md:h-56">
                 <img 
                   src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=600&h=600" 
                   alt="Digital Workspace" 
-                  className="w-64 h-64 md:w-80 md:h-80 object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
